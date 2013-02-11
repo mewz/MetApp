@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96AB9F6016C737CE00433076 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB9F5F16C737CE00433076 /* Cocoa.framework */; };
+		96AB9F6A16C737CE00433076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96AB9F6816C737CE00433076 /* InfoPlist.strings */; };
+		96AB9F6C16C737CE00433076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB9F6B16C737CE00433076 /* main.m */; };
+		96AB9F7016C737CE00433076 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 96AB9F6E16C737CE00433076 /* Credits.rtf */; };
+		96AB9F7316C737CE00433076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB9F7216C737CE00433076 /* AppDelegate.m */; };
+		96AB9F7616C737CE00433076 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96AB9F7416C737CE00433076 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96AB9F5B16C737CE00433076 /* MetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AB9F5F16C737CE00433076 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		96AB9F6216C737CE00433076 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		96AB9F6316C737CE00433076 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		96AB9F6416C737CE00433076 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96AB9F6716C737CE00433076 /* MetApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetApp-Info.plist"; sourceTree = "<group>"; };
+		96AB9F6916C737CE00433076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96AB9F6B16C737CE00433076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96AB9F6D16C737CE00433076 /* MetApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetApp-Prefix.pch"; sourceTree = "<group>"; };
+		96AB9F6F16C737CE00433076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		96AB9F7116C737CE00433076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96AB9F7216C737CE00433076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96AB9F7516C737CE00433076 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96AB9F5816C737CE00433076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AB9F6016C737CE00433076 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96AB9F5016C737CE00433076 = {
+			isa = PBXGroup;
+			children = (
+				96AB9F6516C737CE00433076 /* MetApp */,
+				96AB9F5E16C737CE00433076 /* Frameworks */,
+				96AB9F5C16C737CE00433076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96AB9F5C16C737CE00433076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96AB9F5B16C737CE00433076 /* MetApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96AB9F5E16C737CE00433076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96AB9F5F16C737CE00433076 /* Cocoa.framework */,
+				96AB9F6116C737CE00433076 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96AB9F6116C737CE00433076 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96AB9F6216C737CE00433076 /* AppKit.framework */,
+				96AB9F6316C737CE00433076 /* CoreData.framework */,
+				96AB9F6416C737CE00433076 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		96AB9F6516C737CE00433076 /* MetApp */ = {
+			isa = PBXGroup;
+			children = (
+				96AB9F7116C737CE00433076 /* AppDelegate.h */,
+				96AB9F7216C737CE00433076 /* AppDelegate.m */,
+				96AB9F7416C737CE00433076 /* MainMenu.xib */,
+				96AB9F6616C737CE00433076 /* Supporting Files */,
+			);
+			path = MetApp;
+			sourceTree = "<group>";
+		};
+		96AB9F6616C737CE00433076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96AB9F6716C737CE00433076 /* MetApp-Info.plist */,
+				96AB9F6816C737CE00433076 /* InfoPlist.strings */,
+				96AB9F6B16C737CE00433076 /* main.m */,
+				96AB9F6D16C737CE00433076 /* MetApp-Prefix.pch */,
+				96AB9F6E16C737CE00433076 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96AB9F5A16C737CE00433076 /* MetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96AB9F7916C737CE00433076 /* Build configuration list for PBXNativeTarget "MetApp" */;
+			buildPhases = (
+				96AB9F5716C737CE00433076 /* Sources */,
+				96AB9F5816C737CE00433076 /* Frameworks */,
+				96AB9F5916C737CE00433076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetApp;
+			productName = MetApp;
+			productReference = 96AB9F5B16C737CE00433076 /* MetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96AB9F5216C737CE00433076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = amewzing;
+			};
+			buildConfigurationList = 96AB9F5516C737CE00433076 /* Build configuration list for PBXProject "MetApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96AB9F5016C737CE00433076;
+			productRefGroup = 96AB9F5C16C737CE00433076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96AB9F5A16C737CE00433076 /* MetApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96AB9F5916C737CE00433076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AB9F6A16C737CE00433076 /* InfoPlist.strings in Resources */,
+				96AB9F7016C737CE00433076 /* Credits.rtf in Resources */,
+				96AB9F7616C737CE00433076 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96AB9F5716C737CE00433076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AB9F6C16C737CE00433076 /* main.m in Sources */,
+				96AB9F7316C737CE00433076 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96AB9F6816C737CE00433076 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AB9F6916C737CE00433076 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96AB9F6E16C737CE00433076 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AB9F6F16C737CE00433076 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		96AB9F7416C737CE00433076 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AB9F7516C737CE00433076 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96AB9F7716C737CE00433076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96AB9F7816C737CE00433076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96AB9F7A16C737CE00433076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetApp/MetApp-Prefix.pch";
+				INFOPLIST_FILE = "MetApp/MetApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96AB9F7B16C737CE00433076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetApp/MetApp-Prefix.pch";
+				INFOPLIST_FILE = "MetApp/MetApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96AB9F5516C737CE00433076 /* Build configuration list for PBXProject "MetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96AB9F7716C737CE00433076 /* Debug */,
+				96AB9F7816C737CE00433076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96AB9F7916C737CE00433076 /* Build configuration list for PBXNativeTarget "MetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96AB9F7A16C737CE00433076 /* Debug */,
+				96AB9F7B16C737CE00433076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96AB9F5216C737CE00433076 /* Project object */;
+}
